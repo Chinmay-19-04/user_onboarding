@@ -15,5 +15,3 @@ hdfs dfs -chown <uname>:<gname> /user/<name>
 5. Give appropriate permission to the user
 
 hdfs dfs chmod 660 /user/<name>
-
-hi
