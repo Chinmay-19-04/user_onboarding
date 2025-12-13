@@ -16,3 +16,4 @@ hdfs dfs -chown <uname>:<gname> /user/<name>
 
 hdfs dfs chmod 660 /user/<name>
 I am chinmay 
+I am harshada
