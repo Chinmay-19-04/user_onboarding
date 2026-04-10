@@ -1,9 +1,13 @@
 def add(a, b):
     """
-    Compute the sum of two values.
+    Compute the sum of two operands.
+    
+    Parameters:
+        a: First addend; a value that supports the `+` operator with `b`.
+        b: Second addend; a value that supports the `+` operator with `a`.
     
     Returns:
-        The sum of `a` and `b`.
+        The result of `a + b`.
     """
     return a + b
 
@@ -22,28 +26,23 @@ def subtract(a, b):
 
 def multiply(a, b):
     """
-    Return the product of two numbers.
+    Multiply two numbers.
     
     Parameters:
         a (int | float): First factor.
         b (int | float): Second factor.
     
     Returns:
-        product (int | float): The result of multiplying `a` by `b`.
+        int | float: The product of `a` and `b`.
     """
     return a * b;;;
 
 def divide(a, b):
     """
-    Divide `a` by `b`, returning an explicit error message when `b` is zero.
-    
-    Parameters:
-        a (float|int): Dividend.
-        b (float|int): Divisor.
+    Divide a by b and return an explicit error string when b is zero.
     
     Returns:
-        float: The quotient `a / b` if `b` is not zero.
-        str: The string "Error: Division by zero" if `b` is zero.
+        The numeric quotient a / b, or the string "Error: Division by zero" when b is zero.
     """
     if b == 0:
         return "Error: Division by zero"
